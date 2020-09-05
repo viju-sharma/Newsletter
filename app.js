@@ -12,7 +12,7 @@ app.get("/", function (req, res){
 //8754d12f3960ab67344ef60c3daa532b-us17
 // UNIQUE KEY
 // b1eb117659
-// test 2
+// changes success
 
 
 
@@ -46,7 +46,7 @@ app.post("/", function(req, res){
       console.log(JSON.parse(data));
     })
     if (response.statusCode===200){
-      res.sendFile(__dirname + "/Success.html")
+      res.sendFile(__dirname + "/success.html")
     } else {
       res.sendFile(__dirname + "/failure.html")
     }
