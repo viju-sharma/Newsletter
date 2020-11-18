@@ -8,11 +8,6 @@ app.get("/", function (req, res){
   res.sendFile(__dirname + "/signup.html");
 });
 
-//API KEY
-//8754d12f3960ab67344ef60c3daa532b-us17
-// UNIQUE KEY
-// b1eb117659
-// changes success
 
 
 
